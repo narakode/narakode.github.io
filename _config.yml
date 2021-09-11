@@ -23,23 +23,10 @@ email: narakode@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Tempat belajar pemrograman gratis dengan materi yang lengkap
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://narakode.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.narakode.com" # the base hostname & protocol for your site, e.g. http://example.com
 author: ibrahim
 
-twitter:
-  username: narakode
-  card: summary
-
-facebook:
-  app_id: 1234
-  publisher: 1234
-  admins: 1234
-
-facebook_username:  narakode
-instagram_username:  narakode
-twitter_username: narakode
-youtube_username:  narakode
-github_username:  narakode
+google_site_verification: UoFkVykNvEgzoez8SAkO7JcR82M_eDSYx55S_fdrQco
 
 # Build settings
 gems:

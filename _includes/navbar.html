@@ -1,13 +1,13 @@
 <nav>
 	<div class="container">
 		<div class="menu">
-			<a href="{{ site.baseurl }}" class="brand">{{ site.title }}</a>
+			<a href="{{ site.url }}" class="brand">{{ site.title }}</a>
 			<button class="toggle">
 				<i class="icon ion-md-menu"></i>
 			</button>
 			<ul class="link">
 				<li>
-					<a href="{{ site.baseurl }}/category">Category</a>
+					<a href="{{ site.url }}/category">Category</a>
 				</li>
 			</ul>
 		</div>
@@ -22,20 +22,20 @@
 
 <div class="drawer">
 	<div class="heading">
-		<h2 class="title">JustKoding</h2>
+		<h2 class="title">Narakode</h2>
 		<button class="close">
 			<i class="icon ion-ios-close"></i>
 		</button>
 	</div>
 	<ul>
 		<li>
-			<a class="list" href="{{ site.baseurl }}">
+			<a class="list" href="{{ site.url }}">
 				<i class="icon ion-ios-paper"></i>
 				Home
 			</a>
 		</li>
 		<li>
-			<a class="list" href="{{ prepend: site.baseurl }}//category">
+			<a class="list" href="{{ site.url }}/category">
 				<i class="icon ion-ios-folder"></i>
 				Category
 			</a>
