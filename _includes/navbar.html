@@ -1,0 +1,44 @@
+<nav>
+	<div class="container">
+		<div class="menu">
+			<a href="{{ site.baseurl }}" class="brand">{{ site.title }}</a>
+			<button class="toggle">
+				<i class="icon ion-md-menu"></i>
+			</button>
+			<ul class="link">
+				<li>
+					<a href="{{ site.baseurl }}/category">Category</a>
+				</li>
+			</ul>
+		</div>
+		<form action="" class="search">
+			<input type="search" class="input gray full" placeholder="Search" id="search">
+			<div class="result-container">
+				<ul class="result" id="result"></ul>
+			</div>
+		</form>
+	</div>
+</nav>
+
+<div class="drawer">
+	<div class="heading">
+		<h2 class="title">JustKoding</h2>
+		<button class="close">
+			<i class="icon ion-ios-close"></i>
+		</button>
+	</div>
+	<ul>
+		<li>
+			<a class="list" href="{{ site.baseurl }}">
+				<i class="icon ion-ios-paper"></i>
+				Home
+			</a>
+		</li>
+		<li>
+			<a class="list" href="{{ prepend: site.baseurl }}//category">
+				<i class="icon ion-ios-folder"></i>
+				Category
+			</a>
+		</li>
+	</ul>
+</div>

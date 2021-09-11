@@ -1,0 +1,27 @@
+---
+title: Category
+layout: app
+---
+
+<main>
+  <div class="w-full">
+
+    <h1 class="h4 mb-5">Daftar Kategori</h1>
+
+    <div class="posts">
+      
+      {% for category in site.category %}
+        <a href="{{ site.baseurl }}/category/{{ category.name }}" class="category-box">
+          <div class="bg {{ category.bg }}">
+            <div>
+              <i class="devicon-{{ category.icon }}-plain"></i>
+              <span>{{ category.title }}</span>
+            </div>
+          </div>
+        </a>
+      {% endfor %}
+
+    </div>
+  
+  </div>
+</main>

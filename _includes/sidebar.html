@@ -1,0 +1,42 @@
+<aside>
+<div class="sidebar-wrapper">
+
+	<div class="card mb-4">
+		<div class="card-body">
+			<h3 class="h6 mb-1">{{ site.title }}</h3>
+			<p class="p">
+				{{ site.description }}
+			</p>
+		</div>
+	</div>
+
+	<div class="card mb-4">
+		<div class="card-head">
+			<h3 class="card-title">Follow Us</h3>
+		</div>
+		<div class="card-body">
+			<ul class="tag">
+				<li><a href="https://facebook.com/{{ site.facebook_username }}" class="badge blue"><i class="icon ion-logo-facebook"></i></a></li>
+				<li><a href="https://instagram.com/{{ site.facebook_username }}" class="badge blue"><i class="icon ion-logo-instagram"></i></a></li>
+				<li><a href="https://twitter.com/{{ site.facebook_username }}" class="badge blue"><i class="icon ion-logo-twitter"></i></a></li>
+				<li><a href="https://youtube.com/{{ site.facebook_username }}" class="badge blue"><i class="icon ion-logo-youtube"></i></a></li>
+				<li><a href="https://github.com/{{ site.facebook_username }}" class="badge blue"><i class="icon ion-logo-github"></i></a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card mb-4">
+		<div class="card-head">
+			<h3 class="card-title">Category</h3>
+		</div>
+		<div class="card-body">
+			<ul class="tag">
+				{% for category in site.category %}
+					<li><a href="{{ site.baseurl }}/category/{{ category.name }}" class="badge blue">{{ category.title }}</a></li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+
+</div>
+</aside>

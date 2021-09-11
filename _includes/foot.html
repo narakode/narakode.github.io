@@ -1,0 +1,13 @@
+<script src="{{ site.baseurl }}/assets/js/app.js"></script>
+<script src="{{ site.baseurl }}/assets/js/search.js"></script>
+
+<script>
+	const searchInput = document.querySelector('#search');
+	const resultsContainer = document.querySelector('#result');
+
+	SimpleJekyllSearch({
+		searchInput,
+		resultsContainer,
+		json: "{{ site.baseurl }}/search.json"
+	})
+</script>

@@ -1,0 +1,12 @@
+---
+---
+[
+  {% for post in site.posts %}
+    {
+      "title": "{{ post.title | escape }}",
+      "url": "{{ post.url | escape }}",
+      "categories": "{{ post.categories | escape }}",
+      "date": "{{ post.date | timeago }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

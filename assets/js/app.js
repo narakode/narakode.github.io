@@ -1,0 +1,1 @@
+"use strict";var toggle=document.querySelector(".toggle"),close=document.querySelector(".close"),toggleDrawer=function(){var e=document.querySelector(".drawer").classList;e.contains("block")?e.remove("block"):e.add("block")};toggle.onclick=toggleDrawer,close.onclick=toggleDrawer;
