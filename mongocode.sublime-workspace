@@ -520,12 +520,116 @@
 	"buffers":
 	[
 		{
-			"file": "_layouts/home.html",
+			"file": "_config.yml",
 			"settings":
 			{
-				"buffer_size": 2277,
+				"buffer_size": 2335,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
+			},
+			"undo_stack":
+			[
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "com"
+					},
+					"BAAAANIEAAAAAAAA0wQAAAAAAAAAAAAA0wQAAAAAAADTBAAAAAAAAAkAAABnaXRodWIuaW/TBAAAAAAAANQEAAAAAAAAAAAAANQEAAAAAAAA1QQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0gQAAAAAAADbBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "ww.w"
+					},
+					"BAAAAMkEAAAAAAAAygQAAAAAAAAAAAAAygQAAAAAAADLBAAAAAAAAAAAAADLBAAAAAAAAMwEAAAAAAAAAAAAAMwEAAAAAAAAzQQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAyQQAAAAAAADJBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					2,
+					"left_delete",
+					null,
+					"AgAAAMwEAAAAAAAAzAQAAAAAAAABAAAAd8sEAAAAAAAAywQAAAAAAAABAAAALg",
+					"AQAAAAAAAAABAAAAzQQAAAAAAADNBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": "w."
+					},
+					"AgAAAMsEAAAAAAAAzAQAAAAAAAAAAAAAzAQAAAAAAADNBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAywQAAAAAAADLBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					2,
+					"left_delete",
+					null,
+					"AgAAADEFAAAAAAAAMQUAAAAAAAAuAAAACnR3aXR0ZXI6CiAgdXNlcm5hbWU6IG5hcmFrb2RlCiAgY2FyZDogc3VtbWFyeTAFAAAAAAAAMAUAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAXwUAAAAAAAAxBQAAAAAAAAAAAAAAgFZA"
+				],
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"AgAAADAFAAAAAAAAMQUAAAAAAAAAAAAAMQUAAAAAAAAyBQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMAUAAAAAAAAwBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"paste",
+					null,
+					"AQAAADIFAAAAAAAASgUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMgUAAAAAAAAyBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAAEoFAAAAAAAASwUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASgUAAAAAAABKBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAEsFAAAAAAAATAUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASwUAAAAAAABLBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					1,
+					"paste",
+					null,
+					"AQAAAEwFAAAAAAAAdwUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATAUAAAAAAABMBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					2,
+					"left_delete",
+					null,
+					"AgAAAHgFAAAAAAAAeAUAAAAAAADIAAAACmZhY2Vib29rOgogIGFwcF9pZDogMTIzNAogIHB1Ymxpc2hlcjogMTIzNAogIGFkbWluczogMTIzNAoKZmFjZWJvb2tfdXNlcm5hbWU6ICBuYXJha29kZQppbnN0YWdyYW1fdXNlcm5hbWU6ICBuYXJha29kZQp0d2l0dGVyX3VzZXJuYW1lOiBuYXJha29kZQp5b3V0dWJlX3VzZXJuYW1lOiAgbmFyYWtvZGUKZ2l0aHViX3VzZXJuYW1lOiAgbmFyYWtvZGV3BQAAAAAAAHcFAAAAAAAAAQAAAAo",
+					"AQAAAAAAAAABAAAAQAYAAAAAAAB4BQAAAAAAAAAAAAAAQGRA"
+				]
+			]
 		}
 	],
 	"build_system": "",
@@ -569,17 +673,19 @@
 	"expanded_folders":
 	[
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode",
-		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_layouts"
+		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_includes",
+		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/assets",
+		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/assets/js"
 	],
 	"file_history":
 	[
-		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_config.yml",
-		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_includes/navbar.html",
-		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_includes/foot.html",
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_includes/footer.html",
+		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_includes/navbar.html",
+		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_layouts/home.html",
+		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_config.yml",
+		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_includes/foot.html",
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_includes/head.html",
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_includes/sidebar.html",
-		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_layouts/home.html",
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_layouts/post.html",
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_layouts/category.html",
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_pages/category.html",
@@ -704,7 +810,7 @@
 	],
 	"find":
 	{
-		"height": 21.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -718,6 +824,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"JustKoding",
+			"just",
+			"baseurl",
+			">\n",
+			"baseurl",
 			"site.url",
 			"url",
 			"site.url",
@@ -840,12 +951,7 @@
 			"px",
 			"dashed",
 			"solid",
-			": ",
-			"dashed",
-			"solid",
-			"dashed",
-			"solid",
-			"dotted"
+			": "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -869,30 +975,30 @@
 			[
 				{
 					"buffer": 0,
-					"file": "_layouts/home.html",
+					"file": "_config.yml",
 					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2277,
+						"buffer_size": 2335,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2254,
-								2254
+								1399,
+								1399
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 143.0,
+						"translation.y": 4.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

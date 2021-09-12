@@ -3,16 +3,14 @@ title: Contact
 layout: page
 ---
 
-<div class="form">
-  <label>Name</label>
-  <input type="text" class="input sm full" placeholder="Name">
-</div>
+<form class="form" action="https://formspree.io/f/mdoybngy" method="post">
 <div class="form">
   <label>Email</label>
-  <input type="email" class="input sm full" placeholder="Email">
+  <input type="email" name="_replyto" class="input sm full" placeholder="Email">
 </div>
 <div class="form">
-  <label>Subject</label>
-  <textarea class="input sm full" placeholder="Subject"></textarea>
+  <label>Message</label>
+  <textarea class="input sm full" name="message" placeholder="Message"></textarea>
 </div>
 <button type="submit" class="button black sm">Send</button>
+</form>

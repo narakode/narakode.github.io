@@ -26,7 +26,7 @@ layout: app
 		</div>
 	</div>
 
-  <div class="card">
+  <div class="card mb-4">
     <div class="card-body nav-post">
     	{% if page.previous.url %}
 	      <a href="{{ page.previous.url }}" class="a">&laquo; {{ page.previous.title }}</a>
@@ -36,4 +36,6 @@ layout: app
 	    {% endif %}
     </div>
   </div>
+
+  {% include disqus.html %}
 </article>
