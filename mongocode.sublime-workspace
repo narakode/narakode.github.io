@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ac",
+				"action"
+			],
+			[
 				"padd",
 				"padding-top"
 			],
@@ -510,127 +514,11 @@
 			[
 				"e",
 				"export"
-			],
-			[
-				"ex",
-				"export"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "_config.yml",
-			"settings":
-			{
-				"buffer_size": 2335,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-				[
-					6,
-					1,
-					"insert",
-					{
-						"characters": "com"
-					},
-					"BAAAANIEAAAAAAAA0wQAAAAAAAAAAAAA0wQAAAAAAADTBAAAAAAAAAkAAABnaXRodWIuaW/TBAAAAAAAANQEAAAAAAAAAAAAANQEAAAAAAAA1QQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA0gQAAAAAAADbBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					8,
-					1,
-					"insert",
-					{
-						"characters": "ww.w"
-					},
-					"BAAAAMkEAAAAAAAAygQAAAAAAAAAAAAAygQAAAAAAADLBAAAAAAAAAAAAADLBAAAAAAAAMwEAAAAAAAAAAAAAMwEAAAAAAAAzQQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAyQQAAAAAAADJBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					9,
-					2,
-					"left_delete",
-					null,
-					"AgAAAMwEAAAAAAAAzAQAAAAAAAABAAAAd8sEAAAAAAAAywQAAAAAAAABAAAALg",
-					"AQAAAAAAAAABAAAAzQQAAAAAAADNBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					10,
-					1,
-					"insert",
-					{
-						"characters": "w."
-					},
-					"AgAAAMsEAAAAAAAAzAQAAAAAAAAAAAAAzAQAAAAAAADNBAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAywQAAAAAAADLBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					14,
-					2,
-					"left_delete",
-					null,
-					"AgAAADEFAAAAAAAAMQUAAAAAAAAuAAAACnR3aXR0ZXI6CiAgdXNlcm5hbWU6IG5hcmFrb2RlCiAgY2FyZDogc3VtbWFyeTAFAAAAAAAAMAUAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAAXwUAAAAAAAAxBQAAAAAAAAAAAAAAgFZA"
-				],
-				[
-					15,
-					1,
-					"insert",
-					{
-						"characters": "\n\n"
-					},
-					"AgAAADAFAAAAAAAAMQUAAAAAAAAAAAAAMQUAAAAAAAAyBQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAMAUAAAAAAAAwBQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					16,
-					1,
-					"paste",
-					null,
-					"AQAAADIFAAAAAAAASgUAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAMgUAAAAAAAAyBQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					17,
-					1,
-					"insert",
-					{
-						"characters": ":"
-					},
-					"AQAAAEoFAAAAAAAASwUAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAASgUAAAAAAABKBQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					18,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAEsFAAAAAAAATAUAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAASwUAAAAAAABLBQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					19,
-					1,
-					"paste",
-					null,
-					"AQAAAEwFAAAAAAAAdwUAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAATAUAAAAAAABMBQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					28,
-					2,
-					"left_delete",
-					null,
-					"AgAAAHgFAAAAAAAAeAUAAAAAAADIAAAACmZhY2Vib29rOgogIGFwcF9pZDogMTIzNAogIHB1Ymxpc2hlcjogMTIzNAogIGFkbWluczogMTIzNAoKZmFjZWJvb2tfdXNlcm5hbWU6ICBuYXJha29kZQppbnN0YWdyYW1fdXNlcm5hbWU6ICBuYXJha29kZQp0d2l0dGVyX3VzZXJuYW1lOiBuYXJha29kZQp5b3V0dWJlX3VzZXJuYW1lOiAgbmFyYWtvZGUKZ2l0aHViX3VzZXJuYW1lOiAgbmFyYWtvZGV3BQAAAAAAAHcFAAAAAAAAAQAAAAo",
-					"AQAAAAAAAAABAAAAQAYAAAAAAAB4BQAAAAAAAAAAAAAAQGRA"
-				]
-			]
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -674,19 +562,26 @@
 	[
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode",
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_includes",
+		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_layouts",
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/assets",
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/assets/js"
 	],
 	"file_history":
 	[
+		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_includes/sidebar.html",
+		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_includes/disqus.html",
+		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_layouts/default.html",
+		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/assets/js/disqus.js",
+		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_layouts/post.html",
+		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_posts/2021-09-12-struktur-html.md",
+		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_pages/contact.html",
+		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_includes/subscribe.html",
+		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_config.yml",
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_includes/footer.html",
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_includes/navbar.html",
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_layouts/home.html",
-		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_config.yml",
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_includes/foot.html",
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_includes/head.html",
-		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_includes/sidebar.html",
-		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_layouts/post.html",
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_layouts/category.html",
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_pages/category.html",
 		"/home/ibrahimalanshor/Documents/project/jekyll/portocv/_config.yml",
@@ -698,7 +593,6 @@
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_posts/2021-08-13-mengenal-property-padding-pada-css.md",
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/test.html",
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/Gemfile",
-		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_layouts/default.html",
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_layouts/compress.html",
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_posts/2021-08-09-mengenal-property-margin-pada-css.md",
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_posts/2021-07-27-cara-mengubah-background-dengan-css.md",
@@ -712,7 +606,6 @@
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/404.html",
 		"/home/ibrahimalanshor/Documents/project/jekyll/just-koding/_config.yml",
 		"/home/ibrahimalanshor/Documents/project/jekyll/just-koding/_includes/head.html",
-		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_pages/contact.html",
 		"/home/ibrahimalanshor/Documents/project/jekyll/just-koding/_pages/contact.html",
 		"/home/ibrahimalanshor/Documents/project/jekyll/mongocode/_pages/about.md",
 		"/home/ibrahimalanshor/Documents/project/jekyll/just-koding/_pages/about.md",
@@ -802,15 +695,11 @@
 		"/home/ibrahimalanshor/Documents/app/myoffice/task/src/components/task/index.js",
 		"/home/ibrahimalanshor/Documents/app/myoffice/task/src/store/task/actions.js",
 		"/home/ibrahimalanshor/Documents/app/myoffice/task/src/store/category/actions.js",
-		"/home/ibrahimalanshor/Documents/project/laravel/laundry/resources/js/mixins/filter.js",
-		"/home/ibrahimalanshor/Documents/app/myoffice/task/src/components/category/EditCategory.vue",
-		"/home/ibrahimalanshor/Documents/app/myoffice/task/src/store/category/mutations.js",
-		"/home/ibrahimalanshor/Documents/app/myoffice/api/task/app/Http/Controllers/TaskController.php",
-		"/home/ibrahimalanshor/Documents/app/myoffice/task/src/components/index.js"
+		"/home/ibrahimalanshor/Documents/project/laravel/laundry/resources/js/mixins/filter.js"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 21.0
 	},
 	"find_in_files":
 	{
@@ -824,6 +713,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"search",
+			"post",
+			"comment",
+			"page",
+			"comment",
+			"href",
+			"merupakan",
+			"sintak",
+			"Doctype",
+			"terstuktur",
+			"textarea",
+			"Subject",
+			"div",
 			"JustKoding",
 			"just",
 			"baseurl",
@@ -938,20 +840,7 @@
 			"red",
 			"color",
 			"dotted",
-			"Color",
-			"width",
-			"5px",
-			"Width",
-			"width",
-			"WidthDc",
-			"Style",
-			"style",
-			" %,",
-			"rm",
-			"px",
-			"dashed",
-			"solid",
-			": "
+			"Color"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -973,38 +862,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "_config.yml",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2335,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1399,
-								1399
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1062,9 +919,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "po",
+		"last_filter": "pene",
 		"selected_items":
 		[
+			[
+				"pene",
+				"~/Documents/freelance/Penyesuaian/Penyesuaian.sublime-project"
+			],
 			[
 				"po",
 				"~/Documents/project/laravel/pos/pos.sublime-project"
