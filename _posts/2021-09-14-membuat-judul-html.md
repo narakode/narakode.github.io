@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cara Membuat Judul Pada HTML"
-date: 2021-09-13 08:00:00 +0700
+date: 2021-09-14 08:00:00 +0700
 cover: membuat-judul-html.png
 thumb: membuat-judul-html-thumb.png
 categories: html
