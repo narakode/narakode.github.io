@@ -7,7 +7,7 @@ thumb: membuat-judul-html-thumb.png
 categories: html
 ---
 
-[Judul Pada HTML](http://localhost:4000/membuat-judul-html) - Judul merupakan komponen penting dalam sebuah halaman website. Dengan adanya judul pengunjung akan lebih mudah dalam membaca informasi yang ada pada website tersebut.
+[Judul Pada HTML]({{ page.url }}) - Judul merupakan komponen penting dalam sebuah halaman website. Dengan adanya judul pengunjung akan lebih mudah dalam membaca informasi yang ada pada website tersebut.
 
 HTML sudah menyediakan tag khusus untuk membuat judul, berikut penjelasanya.
 

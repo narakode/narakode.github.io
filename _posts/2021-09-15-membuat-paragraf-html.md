@@ -1,17 +1,19 @@
 ---
 layout: post
-title: "Cara Membuat Paragraf di HTML"
-date: 2021-04-04 19:46:00 +0700
+title: "Cara Membuat Paragraf Pada HTML"
+date: 2021-09-15 08:00:00 +0700
 cover: membuat-paragraf-html.png
 thumb: membuat-paragraf-html-thumb.png
 categories: html
 ---
 
-Paragraf merupakan salah satu tag HTML yang sering digunakan di halaman website. Fungsinya menampilkan paragraf ke halaman website.
+[Paragraf]({{ page.url }}) - Paragraf merupakan salah satu tag HTML yang sering digunakan pada halaman website. Fungsinya menampilkan paragraf ke halaman website.
+
+Paragraf biasanya digunakan untuk menampilkan konten-konten informatif seperti teks, link, dll.
 
 ## Membuat Paragraf
 
-Untuk membuat paragraf di HTML, kita dapat menggunakan tag `p`.
+Untuk membuat paragraf pada HTML, kita dapat menggunakan tag `p` yang artinya *paragraph*.
 
 ```html
 <p>
@@ -25,7 +27,7 @@ Hasilnya
 
 ***
 
-Kita juga dapat menampilkan banyak paragraf, setiap paragraf akan berganti baris
+Kita juga dapat menampilkan beberapa paragraf sekaligus, setiap paragraf akan berganti baris
 
 ```html
 <p>
@@ -47,7 +49,7 @@ Hasilnya
 
 ## Mengganti Baris
 
-Tag br berfungsi untuk memberikan baris baru pada teks, jadi tidak perlu membuat tag `p` lagi.
+Tag `br` atauh *break* berfungsi untuk memberikan baris baru pada teks, elemen setelah tag `br` akan berganti baris dibawah elemen sebelumnya.
 
 ```html
 <p>
@@ -65,9 +67,9 @@ Hasilnya
 
 ## Menebalkan dan Memiringkan Teks
 
-Paragraf berisikan berbagai huruf dan kata, terkadang dalam kata/huruf tersebut kita ingin memberikan tanda berupa tebal atau miring.
+Paragraf berisikan kalimat yang digabungkan, terdiri dari berbagai huruf dan kata, terkadang dalam kata/huruf tersebut kita ingin memberikan tanda tebal atau miring.
 
-Untuk melakukanya, HTML memiliki tag `strong` dan `b` untuk membuat teks menjadi tebal, serta `em`  dan `i` untuk memiringkan teks.
+Untuk melakukanya, HTML memiliki tag `strong` dan `b` (*bold*) untuk membuat teks menjadi tebal, serta `em` (*emphasize*)  dan `i` (*italic*) untuk memiringkan teks.
 
 ```html
 <p>
@@ -85,9 +87,13 @@ Hasilnya
 
 ***
 
+### Perbedaan Strong dan Bold, Emphasize dan Italic
+
 Lalu apa perbedaan antara `strong` dengan `b` dan `em` dengan `i`?
 
-Perbedaannya terletak pada penekananya, `strong` dan `em` memiliki maksud untuk memeberikan penekan atau perhatian lebih pada teks tersebut.
+Perbedaannya terletak pada __penekananya__.
+
+`strong` dan `em` memiliki maksud untuk memberikan penekan atau perhatian lebih pada teks tersebut.
 
 Sedangkan `b` dan `i` hanya memberikan perbedaan format pada teks tidak memiliki maksud lain.
 
