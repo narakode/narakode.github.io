@@ -1,23 +1,23 @@
 ---
 layout: post
-title: "Cara Membuat Daftar di HTML"
-date: 2021-04-10 12:43:00 +0700
+title: "Cara Membuat Daftar atau List Pada HTML"
+date: 2021-09-17 07:30:00 +0700
 cover: membuat-daftar-html.png
 thumb: membuat-daftar-html-thumb.png
 categories: html
 ---
 
-Lanjut belajar HTML, kali ini kita akan belajar cara untuk membuat daftar di HTML.
+[Daftar atau List HTML]({{ page.url }}) - Daftar adalah catatan nama atau hal (kata-kata, nama orang, barang, dsb) yang disusun berderet dari atas ke bawah.
 
-Ada beberapa tag yang ada di HTML untuk membuat daftar.
+Pada halaman website, daftar sering dijumpai untuk menampilkan informasi-informasi tertentu.
 
-Langsung saja saya akan menjelaskanya satu persatu.
+Daftar pada HTML terdapat beberapa jenis, berikut penjelasanya.
 
 ## Ordered List / Daftar Berurutan
 
-Ordered List atau `ol` merupakan daftar yang urutanya berurutan, ditandai dengan simbol seperti angka, abjad, dan romawi.
+*Ordered List* atau `ol` adalah daftar yang urutanya berurutan, ditandai dengan simbol seperti angka, abjad, romawi, dsb.
 
-Daftar ini dibuat dengan menggunakan tag `ol`, kemudian isi daftarnya dengan tag `li`.
+Daftar ini bisa dibuat dengan menggunakan tag `ol` sebagai wadahnya, kemudian isi daftarnya menggunakan tag `li`.
 
 Contoh
 
@@ -40,9 +40,9 @@ Hasilnya
 
 ### Mengganti Simbol
 
-Untuk mengganti simbol pada daftarnya, kita dapat menggunakan atribut `type`, dengan value nama simbolnya.
+Untuk mengganti simbol pada daftarnya, kita bisa menggunakan atribut `type`, dengan value/isi nama simbolnya.
 
-Berikut daftar simbol yang dapat digunakan.
+Berikut daftar simbol yang bisa digunakan.
 
 * __a__, daftar dengan simbol abjad huruf kecil berurutan dari a-z.
 * __A__,  daftar dengan simbol abjad huruf kapital berurutan dari A-Z.
@@ -71,7 +71,7 @@ Hasilnya
 
 ### Mengatur Titik Awal Daftar
 
-Kita juga dapat mengatur titik awal/nomer awal daftar, dengan menggunakan atribut `start`, diisi dengan nomer awal/titik awal.
+Kita juga bisa mengatur titik awal/nomer awal daftar, dengan menggunakan atribut `start`, yang diisi dengan nomer awal/titik awal.
 
 Contoh
 
@@ -117,11 +117,11 @@ Hasilnya
 
 ## Unordered List / Daftar Tidak Berurutan
 
-Selanjutnya ada unordered list atau `ul` yang memiliki fungsi membuat daftar dengan urutan yang tidak berurutan.
+Selanjutnya ada *unordered list* atau `ul` yang memiliki fungsi membuat daftar dengan urutan yang tidak berurutan.
 
-Daftar ini ditandai dengan simbol seperti kotak, lingkaran, atau lingkaran hitam.
+Daftar ini ditandai dengan simbol seperti kotak, lingkaran, lingkaran hitam, dsb.
 
-Daftar ini dibuat dengan tag `ul` yang diisi dengan daftarnya menggunakan atribute `li`.
+Daftar ini dibuat dengan tag `ul` sebagai wadahnya, yang diisi dengan daftarnya menggunakan tag `li`.
 
 Contoh
 
@@ -144,7 +144,7 @@ Hasilnya
 
 ### Mengganti Simbol
 
-Untuk mengganti simbol pada daftar, gunakan atribute `type` dan diisi degan jenis simbolnya.
+Untuk mengganti simbol pada daftar, gunakan atribute `type` dan diisi dengan jenis simbolnya.
 
 Berikut daftar simbolnya.
 
@@ -174,9 +174,9 @@ Hasilnya
 
 ## Description List
 
-Daftar ini digunakan untuk membuat daftar yang memiliki struktur dan penjelasan didalamnya.
+Daftar ini digunakan untuk membuat daftar yang memiliki struktur berupa judul dan penjelasan/deskripsi didalamnya.
 
-Untuk membuatnya terdapat tiga tag yang digunakan, yaitu `dl` sebagai wadah dari daftarnya, `dt` sebagai judulnya, dan `dd` sebagai penjelasan dari daftar tersebut.
+Untuk membuatnya terdapat tiga tag yang digunakan, yaitu `dl` (*description list*) sebagai wadah dari daftarnya, `dt` (*description title*) sebagai judulnya, dan `dd` (*description detail*) sebagai penjelasan/deskripsi dari daftar tersebut.
 
 Contoh
 
