@@ -1,25 +1,27 @@
 ---
 layout: post
-title: "Cara Membuat Tabel di HTML"
-date: 2021-04-11 08:45:00 +0700
+title: "Cara Membuat Tabel Pada HTML"
+date: 2021-09-19 08:00:00 +0700
 cover: membuat-tabel-html.png
 thumb: membuat-tabel-html-thumb.png
 categories: html
 ---
 
-Untuk menampilkan data yang terstruktur, seperti dari *database*, biasanya kita akan menampilkanya dalam bentuk tabel.
+[Tabel HTML]({{ page.url }}) - Tabel adalah kumpulan data yang disusun berdasarkan baris dan kolom.
 
-HTML sudah menyediakan tag khusus untuk membuat tabel, mari kita memepelajarinya.
+Tabel digunakan untuk menampilkan data yang terstruktur, seperti data dari *database*, biasanya akan ditampilkan dalam bentuk tabel.
+
+HTML sudah menyediakan alat-alat khusus untuk membuat tabel, mari kita simak penjelasanya.
 
 ## Membuat Tabel
 
-Untuk membuat table di HTML, terdapat tiga tag utama yang bisa kita gunakan, yaitu
+Untuk membuat table pada HTML, terdapat tiga tag utama yang bisa kita gunakan, yaitu
 
 * `table`, untuk memulai tabel
 * `tr`, untuk membuat *row* atau baris
 * `td`, untuk membuat kolom
 
-Contoh
+Contoh.
 
 ```html
 <table>
@@ -41,7 +43,7 @@ Contoh
 </table>
 ```
 
-Hasilnya
+Hasilnya.
 
 ***
 
@@ -49,13 +51,13 @@ Hasilnya
 
 ***
 
-Itu adalah tampilan default tabel pada HTML, untuk membuatnya menjadi lebih rapi kita perlu menambahkan beberapa atribut pada tabel tersebut.
+Hasil tersebut adalah tampilan *default* tabel pada HTML, untuk membuatnya menjadi lebih rapi dan menarik kita perlu menambahkan beberapa atribut pada tabel tersebut.
 
 ## Menambahkan Garis Pada Tabel
 
-Untuk menambahkan garis/border pada tabel, kita perlu menambahkan atribut `border` yang diisi dengan tebal garis, pada tag `table`.
+Untuk menambahkan garis/*border* pada tabel, kita perlu menambahkan atribut `border` yang diisi dengan ketebalan garisnya, pada tag `table`.
 
-Contoh
+Contoh.
 
 ```html
 <table border="1">
@@ -77,7 +79,7 @@ Contoh
 </table>
 ```
 
-Hasilnya
+Hasilnya.
 
 ***
 
@@ -87,11 +89,11 @@ Hasilnya
 
 ## Mengatur Lebar Tabel
 
-Secara default, lebar tabel pada HTML akan menyesuaikan isi dari tabelnya.
+Secara *default*, lebar tabel pada HTML akan menyesuaikan isi dari tabelnya.
 
 Untuk mengaturnya agar lebih konsisten, kita dapat menggunakan atribut `width` yang diisi dengan ukuran lebar tabel pada tag `table`.
 
-Contoh
+Contoh.
 
 ```html
 <table border="1" width="400px">
@@ -113,7 +115,7 @@ Contoh
 </table>
 ```
 
-Hasilnya
+Hasilnya.
 
 ***
 
@@ -121,11 +123,11 @@ Hasilnya
 
 ***
 
-## Memberikan Judul Pada Tabel
+## Menambahkan Judul Pada Tabel
 
-Untuk memberikan judul pada tabel, kita dapat menggunakan tag `th` yang ditambahkan di tabel.
+Untuk menambahkan judul pada tabel, kita dapat menggunakan tag `th` yang ditambahkan pada baris/row pertama tabel.
 
-Contoh
+Contoh.
 
 ```html
 <table border="1" width="400px">
@@ -152,7 +154,7 @@ Contoh
 </table>
 ```
 
-Hasilnya
+Hasilnya.
 
 ***
 
@@ -162,11 +164,11 @@ Hasilnya
 
 ## Memberikan Warna Pada Tabel
 
-Kita dapat memberikan warna latar belakang pada kolom atau baris tabel.
+Kita juga dapat memberikan warna latar belakang pada kolom atau baris tabel.
 
-Atribut yang digunakan yaitu `bgcolor` yang diisi dengan warnanya.
+Atribut yang digunakan yaitu `bgcolor` yang diisi dengan nama warnanya.
 
-Contoh
+Contoh.
 
 ```html
 <table border="1" width="400px">
@@ -193,7 +195,7 @@ Contoh
 </table>
 ```
 
-Hasilnya
+Hasilnya.
 
 ***
 
@@ -205,9 +207,9 @@ Hasilnya
 
 Seperti yang dilihat pada tabel diatas, jarak antar kolom terlihat sempit, sehingga tabel terlihat kurang rapi.
 
-Untuk itu kita dapat menambahkan jarak pada kolom dengan menggunakan atribut `cellpading` dengan isi jumlah jaraknya pada tag `table`.
+Untuk itu, kita dapat menambahkan jarak pada kolom dengan menggunakan atribut `cellpading` dengan isi jumlah jaraknya pada tag `table`.
 
-Contoh
+Contoh.
 
 ```html
 <table border="1" width="400px" cellpadding="8">
@@ -234,7 +236,7 @@ Contoh
 </table>
 ```
 
-Hasilnya
+Hasilnya.
 
 ***
 
@@ -242,18 +244,18 @@ Hasilnya
 
 ***
 
-## Menggabungkan Kolom Pada Tabel
+## Menggabungkan Kolom dan Baris Pada Tabel
 
-Kita juga dapat menggabungkan kolom yang terdapat pada tabel.
+Kita juga dapat menggabungkan kolom dan baris yang terdapat pada tabel.
 
 Untuk melakukanya kita dapat menggunakan atribut-atribut berikut pada tag `td` atau `th`.
 
 * `rowspan` untuk menggabungkan baris
 * `colspan` untuk menggabungkan kolom
 
-Masing masing atribut diatas diisi dengan jumlah baris atau kolom yang akan digabungkan.
+Masing-masing atribut di atas diisi dengan jumlah baris atau kolom yang akan digabungkan.
 
-Contoh
+Contoh.
 
 ```html
 <table border="1" width="400px" cellpadding="8">
@@ -293,10 +295,16 @@ Contoh
 </table>
 ```
 
-Hasilnya
+Hasilnya.
 
 ***
 
 ![Menggabungkan Tabel]({{ site.baseurl }}/assets/img/menggabungkan-tabel.png)
 
 ***
+
+## Referensi
+
+Untuk penjelasan lebih lengkap, silakan kunjungi link berikut.
+
+<a href="https://www.w3schools.com/html/html_tables.asp" target="_blank">HTML Tables</a>
