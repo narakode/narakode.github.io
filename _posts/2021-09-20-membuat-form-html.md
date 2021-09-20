@@ -1,21 +1,25 @@
 ---
 layout: post
-title: "Cara Membuat Form di HTML"
-date: 2021-04-11 09:46:00 +0700
+title: "Cara Membuat Form Pada HTML"
+date: 2021-09-20 10:20:00 +0700
 cover: membuat-form-html.png
 thumb: membuat-form-html-thumb.png
 categories: html
 ---
 
-Form pada halaman website biasanya digunakan untuk mengumpulkan data yang di-*input*-kan pengguna.
+[Form HTML]({{ page.url }}) - Form pada halaman website adalah sebuah tempat yang digunakan untuk menerima input/masukan dari pengguna.
 
-Data tersebut biasanya akan dikirim ke server untuk diproses.
+Data dari inputan pengguna tersebut biasanya akan dikirim ke server untuk diproses lebih lanjut.
 
-Contoh penggunaan form pada website seperti form login, form kontak, form registrasi, dll.
+Contoh form seperti form registrasi, form login, form kontak, dll.
+
+Langsung saja mari kita simak cara membuat form dibawah ini.
 
 ## Membuat Form
 
-Untuk membuat form kita dapat menggunakan tag `form`. Tag ini berfungsi sebagai wadah dari form dari berbagai macam inputan yang akan diisi pengguna.
+Untuk membuat form kita dapat menggunakan tag `form`.
+
+Tag ini berfungsi sebagai __wadah__ dari form yang berisi berbagai macam jenis inputan yang dapat diisi pengguna.
 
 ```html
 <form>
@@ -25,7 +29,7 @@ Untuk membuat form kita dapat menggunakan tag `form`. Tag ini berfungsi sebagai 
 
 ### Atribut Action
 
-Atribut ini berfungsi untuk menjelaskan atau mengarahkan kemana form tersebut akan dikirim.
+Atribut ini berfungsi untuk mengatur kemana form tersebut akan dikirim.
 
 ```html
 <form action="register.php">
@@ -37,7 +41,7 @@ Jika kita tidak memberikan atribut ini pada form, maka form tersebut akan dikiri
 
 ### Atribut Method
 
-Atribut ini berfungsi untuk menjelaskan tipe *HTTP method* yang akan digunakan ketika form tersebut dikirim.
+Atribut ini berfungsi untuk mengatur tipe *HTTP method* yang akan digunakan ketika form tersebut dikirim.
 
 Atribut tersebut bisa berisi `get` atau `post`.
 
@@ -51,29 +55,31 @@ Secara default form akan mengirimkan data dengan *HTTP method* tipe `get`.
 
 ## Tag Input
 
-Jika kalian menjalankan kode diatas maka tidak akan muncul apa-apa, karena fungsi dari form hanyalah sebagai wadah.
+Jika kalian menjalankan kode diatas pada *browser* maka tidak akan muncul apa-apa, karena fungsi dari tag `form` hanyalah sebagai wadah.
 
 Nah untuk mengisinya, kita perlu memberikan elemen-elemen inputan user.
 
-Untuk membuatnya kita dapat memulainya dengan tag `input`.
+Kita dapat memulainya dengan tag `input`.
 
-Tag ini memiliki berbagai type yang terdapat pada atribut `type`.
+Tag ini memiliki berbagai jenis tipe yang diatur pada atribut `type`.
 
-Berikut jenis-jenis input berdasargan atribut `type`.
+Berikut jenis-jenis input berdasarkan atribut `type`.
 
 * `<input type="text">`, input jenis ini menerima inputan berupa teks, contohnya inputan nama, username, dll.
 * `<input type="number">`, input jenis ini menerima inputan berupa angka, contohnya inputan nomor telepon.
-* `<input type="password">`, input jenis ini digunakan untuk membuat input password, teks yang ininputkan akan tidak terlihat.
+* `<input type="password">`, input jenis ini digunakan untuk membuat input password, teks yang diinputkan tidak akan terlihat.
 * `<input type="radio">`, input jenis ini digunakan untuk membuat input berupa pilihan, dimana user hanya dapat memilih satu, contohnya seperti input jenis kelamin.
-* `<input type="checkbox">`, input jenis ini digunakan untuk membuat input berupa pilihan, dimana user hanya dapat memilih lebih satu dengan mencentangnya, contohnya seperti inputan hobi.
+* `<input type="checkbox">`, input jenis ini digunakan untuk membuat input berupa pilihan, dimana user dapat memilih lebih dari satu dengan cara mencentangnya, contohnya seperti inputan hobi.
 * `<input type="date">`, input jenis ini digunakan untuk membuat input tanggal.
 * `<input type="file">`, input jenis ini digunakan untuk membuat input file
 
-Masih banyak sebenarnya, silahkan buka [W3 School](https://www.w3schools.com/html/html_form_input_types.asp) untuk pembahasan tag input yang lebih lengkap.
+Dan masih banyak lagi, silahkan buka [W3 School Tag Input](https://www.w3schools.com/html/html_form_input_types.asp) untuk daftar jenis tag input yang lebih lengkap.
 
 ### Atribut Placeholder
 
-Kita juga dapat menambahkan atribut placeholder pada tag input, atribut ini berfungsi untuk memberikan teks bantuan pada inputan.
+Atribut *placeholder* pada tag input berfungsi untuk memberikan teks bantuan pada inputan.
+
+Teks pada atribut ini akan muncul ketika kotak input masih kosong.
 
 ```html
 <form action="register.php" method="post">
@@ -88,18 +94,18 @@ Kita juga dapat menambahkan atribut placeholder pada tag input, atribut ini berf
 
 ***
 
-Atribut ini juga dapat digunakan di tag textarea.
+Atribut ini juga dapat digunakan pada tag `textarea`.
 
 ## Tag Textarea
 
-Tag ini memiliki tampilan yang hampir sama seperti tag input, bedanya tag ini lebih panjang karena dapat menerima tulisan multi basris.
+Tag ini memiliki tampilan yang mirip seperti tag `input`, bedanya tag ini lebih panjang karena dapat menerima tulisan multi baris.
 
 Tag ini biasanya digunakan untuk membuat inputan bio, deskripsi, atau alamat.
 
-Untuk mengatur panjang textarea gunakan atribut `rows` dan untuk mengatur lebarnya gunakan atribut `cols`.
+Untuk mengatur panjang pada textarea, gunakan atribut `rows`. Untuk mengatur lebarnya, gunakan atribut `cols`.
 
 ```html
-<textarea cols="40" rows="10" placeholder="Deskripsikan tentang anda"></textarea>
+<textarea cols="40" rows="10" placeholder="Deskripsikan diri anda"></textarea>
 ```
 
 ***
@@ -112,12 +118,12 @@ Untuk mengatur panjang textarea gunakan atribut `rows` dan untuk mengatur lebarn
 
 Tag ini digunakan untuk menerima pilihan pengguna, dimana pilihanya sudah disediakan.
 
-Untuk membuat pilihanya menggunakan tag `option`.
+Untuk membuat pilihanya gunakan tag `option`.
 
 ```html
 <select>
-	<option value="">Laki Laki</option>
-	<option value="">Perempuan</option>
+	<option value="male">Laki Laki</option>
+	<option value="female">Perempuan</option>
 </select>
 ```
 
@@ -129,11 +135,9 @@ Untuk membuat pilihanya menggunakan tag `option`.
 
 ## Tag Label
 
-Tag ini digunakan sebgai keterangan atau pelengkan sebuah inputan.
+Tag ini berfungsi sebagai keterangan pada sebuah inputan.
 
-Tag ini memiliki sebuah atribut `for` yang diisi dengan `id` dari input yang ditujukan.
-
-Atribut for berguna untuk beberapa tag, seperti tag checkbox karena ketika label tersebut diklik maka secara otomatis mencentang input tersebut.
+Tag ini biasanya diletakan sebelum tag `input`.
 
 ```html
 <form action="register.php" method="post">
@@ -142,20 +146,32 @@ Atribut for berguna untuk beberapa tag, seperti tag checkbox karena ketika label
 </form>
 ```
 
+***
+
+![Tag Label]({{ site.baseurl }}/assets/img/form-label.png)
+
+***
+
 ## Tag Button
 
-Tag ini digunakan untuk membuat sebuah tombol.
+Tag ini digunakan untuk membuat tombol.
 
-Pada beberapa browser ketika button diklik, akan otomatis mengirimkan form, untuk itu tambahkan atribut `type` untuk mencegah pengiriman form.
+Pada beberapa browser ketika tombol ditekan, maka otomatis mengirimkan form, untuk itu tambahkan atribut `type` untuk mencegah pengiriman form.
 
 ```html
 <button type="submit">Daftar</button>
 <button type="button">Button Biasa</button>
 ```
 
+***
+
+![Tag Button]({{ site.baseurl }}/assets/img/tag-button.png)
+
+***
+
 ## Contoh Form Yang Komplit
 
-Berikut adalah contoh form yang komplit dengan menggunakan tag-tag yang saya sebutkan diatas.
+Berikut adalah contoh form yang komplit dengan menggunakan tag-tag yang tertera diatas.
 
 ```html
 <form action="register.php" method="post">
