@@ -1,13 +1,15 @@
 ---
 layout: post
 title: "Belajar CSS : Apa Itu CSS?"
-date: 2021-04-11 13:16:00 +0700
+date: 2021-09-24 08:00:00 +0700
 cover: apa-itu-css.png
 thumb: apa-itu-css.png
 categories: css
 ---
 
-Dalam pemrograman web, html merupakan kerangka dari halaman website, nah untuk mendesain atau memberikan gaya pada kerangka tersebut menggunakan CSS.
+[Apa itu CSS]({{ page.url }}) - Pada halaman web, HTML adalah kerangka dari halaman website, nah untuk mendesain atau memberikan gaya pada kerangka tersebut menggunakan teknologi bernama CSS.
+
+Tanpa adanya CSS, halaman website akan terlihat *monoton*. Maka dari itu penting bagi kita yang sedang belajar pemrograman web untuk mempelajari CSS.
 
 Untuk memulai belajar CSS, mari kita mengenal CSS terlebih dahulu.
 
@@ -15,13 +17,20 @@ Untuk memulai belajar CSS, mari kita mengenal CSS terlebih dahulu.
 
 CSS merupakan singkatan dari *Cascading Style Sheet*.
 
-CSS adalah tekhnologi pada pemrograman website yang digunakan untuk mendesain atau memperindah tampilan HTML.
+CSS adalah teknologi pada pemrograman website yang digunakan untuk __mendesain__ atau memperindah tampilan HTML.
 
-Jadi HTML adalah kerangka dari website den CSS adalah desainnya.
+## Fungsi CSS
+
+Selain sebagai alat untuk mendesain tampilan web, CSS juga memiliki fungsi lain seperti berikut:
+
+* Mendesain tampilan web
+* Mengatur tata letak web
+* Membuat animasi pada halaman web
+* dll.
 
 ## Contoh CSS
 
-Mari kita lihat perbedaan sebuah halaman website yang saya buat dengan hanya HTML dan dengan HTML dan CSS.
+Mari kita lihat perbedaan sebuah halaman website yang dibuat dengan CSS dan tanpa CSS.
 
 ### Hanya HTML
 
@@ -88,6 +97,10 @@ Berikut adalah tampilan dari sebuah website dengan HTML dan CSS.
 
 ***
 
-Bisa dilihat setelah menambahkan beberapa kode CSS tampilan HTML menjadi berubah.
+Bisa dilihat, setelah menambahkan beberapa kode CSS tampilan HTML menjadi berubah, mulai dari tata letaknya, warnanya, dan jenis font-nya.
 
-Setelah ini kita akan lanjut belajar css mengenai lebih lanjut.
+## Kesimpulan
+
+Masih banyak hal yang bisa dilakukan dengan css, seperti yang dijelaskan pada fungsi CSS diatas.
+
+Untuk itu mari kita akan lanjut belajar css pada postingan berikutnya.
