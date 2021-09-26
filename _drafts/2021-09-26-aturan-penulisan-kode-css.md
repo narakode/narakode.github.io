@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Aturan Penulisan Kode CSS"
-date: 2021-04-11 17:42:00 +0700
+date: 2021-09-26 18:30:00 +0700
 cover: aturan-penulisan-kode-css.png
 thumb: aturan-penulisan-kode-css.png
 categories: css
