@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mengenal Pseudo-class dan Pseudo-element pada CSS"
-date: 2021-04-11 20:16:00 +0700
+date: 2021-09-30 18:16:00 +0700
 cover: mengenal-pseudo-class-element-css.png
 thumb: mengenal-pseudo-class-element-css.png
 categories: css
