@@ -13,7 +13,7 @@ Mari kita mulai mengenal attribute selector dari pengertianya dulu.
 
 ## Pengertian Attribute Selector
 
-Attribute Selector adalah atribut yang digunakan untuk memilih elemen berdasarkan **nama atribut** atau **nilai atribut** yang ditentukan.
+Attribute Selector adalah selector yang digunakan untuk memilih elemen berdasarkan **nama atribut** atau **nilai atribut** yang ditentukan.
 
 Attribute Selector biasa digunakan pada kondisi tertentu, seperti:
 
