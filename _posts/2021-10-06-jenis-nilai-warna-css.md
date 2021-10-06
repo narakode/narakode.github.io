@@ -75,7 +75,7 @@ Nilai angkanya dimulai dari **0.1** - **1.0**.
 
 ```css
 body {
-  background-color: rgb(255, 0, 0, 0.5);
+  background-color: rgba(255, 0, 0, 0.5);
 }
 ```
 
@@ -104,7 +104,7 @@ Fungsi jenis ini sama seperti HSL, dengan penambahan parameter `A` yang berarti 
 
 ```css
 body {
-  background-color: hsl(0, 100%, 50%, 0.5);
+  background-color: hsla(0, 100%, 50%, 0.5);
 }
 ```
 
