@@ -15,7 +15,7 @@ Langsung saja, mari kita simak penggunaanya berikut.
 
 ## Menggunakan Properti Float
 
-Properti Float berfungsi untuk mengatur posisi elemen secara horizontal.
+Properti Float berfungsi untuk __mengatur posisi elemen__ secara horizontal.
 
 Properti Float memiliki beberapa nilai, antara lain:
 
