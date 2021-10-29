@@ -2,8 +2,8 @@
 layout: post
 title: "Cara Menambahkan Ikon Pada Web Dengan Font Awesome"
 date: 2021-10-29 07:00:00 +0700
-cover: mengatasi-gambar-gepeng-css.png
-thumb: mengatasi-gambar-gepeng-css.png
+cover: font-awesome.png
+thumb: font-awesome.png
 categories: css
 ---
 
