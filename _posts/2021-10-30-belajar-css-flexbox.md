@@ -2,8 +2,8 @@
 layout: post
 title: "Belajar CSS Flexbox : Menggunakan Flexbox"
 date: 2021-10-30 07:30:00 +0700
-cover: font-awesome.png
-thumb: font-awesome.png
+cover: menggunakan-flexbox.png
+thumb: menggunakan-flexbox.png
 categories: css
 ---
 
