@@ -89,3 +89,8 @@
  .highlight .vi { color: #8be9fd; font-style: italic } /* Name.Variable.Instance */
  .highlight .vm { color: #8be9fd; font-style: italic } /* Name.Variable.Magic */
  .highlight .il { color: #bd93f9 } /* Literal.Number.Integer.Long */
+
+.iframe {
+  border: 1px solid rgb(243,244,246);
+  border-radius: .25rem;
+}
