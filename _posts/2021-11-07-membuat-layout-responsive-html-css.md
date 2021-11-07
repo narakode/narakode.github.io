@@ -260,4 +260,4 @@ Ketika ukuran layar dibawah `768px`, maka lebar konten dan sidebar menjadi `100%
 
 Anda dapat mengunduh source code layout responsive diatas pada tautan berikut.
 
-<a href="" target="_blank">Source Code Layout Responsive</a>
+<a href="https://github.com/narakode/layout-responsive" target="_blank">Source Code Layout Responsive</a>
