@@ -55,7 +55,7 @@ Setiap artikel dibuat dengan tag **article**, kemudian dikumpulan di tag **secti
       <!-- Artikel 3, Artikel 4, dst. -->
     </section>
   </main>
-</container>
+</div>
 ```
 
 ***
@@ -73,13 +73,13 @@ Kita mulai dengan memberikan _flexbox_ pada main, mengatur ukuran gambar, mengat
 ```css
 main {
   display: flex;
-  margin: 2rem -1.5rem;
+  margin: 2rem -1rem;
 }
 img {
   max-width: 100%;
 }
 section.posts {
-  padding: 0 1.5rem;
+  padding: 0 1rem;
   width: 75%;
 }
 .posts .heading {
@@ -202,7 +202,7 @@ Di sini saya mengatur ukuran sidebar, lalu menambahkan border pada kotak sidebar
 
 ```css
 aside {
-  padding: 0 1.5rem;
+  padding: 0 1rem;
 }
 aside {
   width: 25%;
