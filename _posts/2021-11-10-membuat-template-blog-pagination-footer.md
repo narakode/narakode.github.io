@@ -7,7 +7,7 @@ thumb: membuat-template-blog-pagination-footer.png
 categories: css
 ---
 
-[Daftar Artikel]({{ page.url }}) - Pagination adalah proses __membagi halaman__ menjadi beberapa bagaian.
+[Pagination dan Footer]({{ page.url }}) - Pagination adalah proses __membagi halaman__ menjadi beberapa bagaian.
 
 Ketika daftar konten/artikel ada banyak, daftar tersebut umumnya dibagi menjadi beberapa bagian pada setiap halaman.
 
@@ -21,7 +21,7 @@ Sebelum membuat pagination dan footer, pastikan anda sudah memiliki source code 
 
 Berikut link source codenya jika anda belum memilikinya.
 
-<a href="https://github.com/narakode/template-blog/blob/main/artikel.html" target="_blank">Template Blog</a>.
+<a href="https://github.com/narakode/template-blog/blob/main/daftar-artikel.html" target="_blank">Template Blog Bagian Daftar Artikel</a>.
 
 ## Membuat Pagination
 
@@ -167,6 +167,7 @@ Berikut adalah hasil akhir dari pembuatan pagination dan footer pada template bl
 
 ![Hasil Akhir]({{ site.baseurl }}/assets/img/css/blog/footer/hasil.png)
 
+***
 
 ## Selanjutnya
 

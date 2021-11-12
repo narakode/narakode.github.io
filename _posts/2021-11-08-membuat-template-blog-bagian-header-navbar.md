@@ -50,6 +50,7 @@ Tambakan style dasar pada halaman website.
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: 'PT Sans', sans-serif;
