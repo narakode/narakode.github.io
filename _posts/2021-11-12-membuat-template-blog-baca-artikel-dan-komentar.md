@@ -2,8 +2,8 @@
 layout: post
 title: "Cara Membuat Template Blog : Baca Artikel dan Komentar"
 date: 2021-11-12 10:00:00 +0700
-cover: membuat-template-blog-pagination-footer.png
-thumb: membuat-template-blog-pagination-footer.png
+cover: template-blog-artikel-komentar.png
+thumb: template-blog-artikel-komentar.png
 categories: css
 ---
 
