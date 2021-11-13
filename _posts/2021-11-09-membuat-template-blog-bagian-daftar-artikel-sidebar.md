@@ -104,6 +104,7 @@ article {
 }
 article .post-thumbnail {
   width: 30%;
+  flex-shrink: 0;
   max-height: 150px;
   object-fit: cover;
   border-radius: 10px;
